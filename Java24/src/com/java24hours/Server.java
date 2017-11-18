@@ -34,8 +34,7 @@ public class Server extends JFrame {
 
         enterField = new JTextField(); // create enterField
         enterField.setEditable(false);
-        enterField.addActionListener(
-                new ActionListener() {
+        enterField.addActionListener( new ActionListener() {
                     // send message to client
                     public void actionPerformed(ActionEvent event) {
                         sendData(event.getActionCommand());

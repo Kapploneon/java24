@@ -1,5 +1,7 @@
 package com.java24hours;
 
+import com.Algo.VertexAttributes;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
